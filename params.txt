@@ -1,0 +1,65 @@
+## Hyper-parameters for NS4GC
+
+Cora:
+    epochs = 200
+    lam, gam = 1., 1.
+    s, tau = 0.6, 0.1
+    hid_dims = [256, 64]
+    lr, wd = 1e-03, 1e-05
+    pd1, pd2, pm1, pm2 = 0.3, 0.3, 0.2, 0.2
+
+Citeseer:
+    epochs = 50
+    lam, gam = 1., 1.
+    s, tau = 0.5, 0.1
+    hid_dims = [256]
+    lr, wd = 1e-03, 1e-05
+    pd1, pd2, pm1, pm2 = 0.6, 0.8, 0.0, 0.4
+
+Pubmed:
+    epochs = 200
+    lam, gam = 1., 1.
+    s, tau = 0.6, 0.1
+    hid_dims = [256, 256]
+    lr, wd = 1e-03, 1e-05
+    pd1, pd2, pm1, pm2 = 0.2, 0.6, 0.1, 0.0
+
+CoraFull:
+    epochs = 200
+    lam, gam = 1., 1.
+    s, tau = 0.6, 0.1
+    hid_dims = [256, 64]
+    lr, wd = 1e-03, 1e-05
+    pd1, pd2, pm1, pm2 = 0.2, 0.4, 0.0, 0.2
+
+WikiCS:
+    epochs = 500
+    lam, gam = 1., 1.
+    s, tau = 0.5, 0.1
+    hid_dims = [256, 256]
+    lr, wd = 1e-03, 1e-05
+    pd1, pd2, pm1, pm2 = 0.0, 0.6, 0.1, 0.0
+
+Photo:
+    epochs = 200
+    lam, gam = 1., 1.
+    s, tau = 0.6, 0.1
+    hid_dims = [256, 128]
+    lr, wd = 1e-03, 1e-05
+    pd1, pd2, pm1, pm2 = 0.8, 0.8, 0.0, 0.0
+
+Computer:
+    epochs = 400
+    lam, gam = 1., 1.
+    s, tau = 0.6, 0.1
+    hid_dims = [256, 128]
+    lr, wd = 1e-02, 1e-06
+    pd1, pd2, pm1, pm2 = 0.6, 0.8, 0.0, 0.1
+    
+CoauthorCS:    
+    epochs = 200
+    lam, gam = 1., 1.
+    s, tau = 0.4, 0.08
+    hid_dims = [256, 64]
+    lr, wd = 1e-03, 1e-05
+    pd1, pd2, pm1, pm2 = 0.1, 0.3, 0.0, 0.7

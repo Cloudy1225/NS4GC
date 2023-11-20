@@ -111,7 +111,7 @@ def evaluate(Z: np.ndarray, Y: np.ndarray, logger=None):
     ARIs = []
     F1s = []
 
-    for i in range(1):
+    for i in range(20):
         fix_seed(i)
         kmeans = KMeans(n_clusters=n_clusters, random_state=i, n_init=10)
         Y_ = kmeans.fit_predict(Z)

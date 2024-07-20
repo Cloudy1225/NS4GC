@@ -1,6 +1,6 @@
 # Reliable Node Similarity Matrix Guided Contrastive Graph Clustering
 
-Official Implementation of Reliable Node Similarity Matrix Guided Contrastive Graph Clustering.
+Official Implementation of Reliable Node Similarity Matrix Guided Contrastive Graph Clustering (TKDE 2024).
 
 
 
